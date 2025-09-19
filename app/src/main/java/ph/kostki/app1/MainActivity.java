@@ -2,6 +2,7 @@ package ph.kostki.app1;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -22,14 +23,24 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        textViewPytanie=findViewById(R.id.textView);
     }
 
+    private  int proby=0;
+    private TextView textViewPytanie;
     public void test(View view) {
-        Toast.makeText(this, "Wrong button!", Toast.LENGTH_SHORT).show();
-        view.setVisibility(view.INVISIBLE);
+        if (proby!=3) {
+            Toast.makeText(this, "Wrong button!", Toast.LENGTH_SHORT).show();
+            view.setVisibility(view.INVISIBLE);
+            proby++;
+        }
+        else{
+            textViewPytanie.setText("Congrats this is polish flag!");
+            view.setVisibility(view.INVISIBLE);
+        }
     }
 
     public void dobry(View view) {
-        Toast.makeText(this, "You got it!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Polish flag has this colour", Toast.LENGTH_SHORT).show();
     }
 }
