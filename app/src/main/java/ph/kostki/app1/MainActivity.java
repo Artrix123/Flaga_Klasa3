@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewPytanie;
     public void test(View view) {
         if (proby!=3) {
-            Toast.makeText(this, "Wrong button!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.Dobra, Toast.LENGTH_SHORT).show();
             view.setVisibility(view.INVISIBLE);
             proby++;
         }
         else{
-            textViewPytanie.setText("Congrats this is polish flag!");
+            textViewPytanie.setText(R.string.Congrats);
             view.setVisibility(view.INVISIBLE);
         }
     }
 
     public void dobry(View view) {
-            Toast.makeText(this, "Polish flag has this colour", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.Wrong, Toast.LENGTH_SHORT).show();
     }
 }

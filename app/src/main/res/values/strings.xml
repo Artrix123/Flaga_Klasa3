@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">App1</string>
     <string name="Question">Select wich colours aren\'t in Polish flag?</string>
+    <string name="Dobra" translatable="false">Good boyy~!</string>
+    <string name="Congrats">Congrats this is polish flag!</string>
+    <string name="Wrong">Polish flag has this colour!</string>
 </resources>

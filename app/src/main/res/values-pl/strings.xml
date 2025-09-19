@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">App1</string>
     <string name="Question">Wyberz króry z kolorów nie jest w fladze polski.</string>
+    <string name="Congrats">Gratulacje, to jest polska flaga!</string>
+    <string name="Wrong">Polska flaga ma ten kolor!</string>
 </resources>
