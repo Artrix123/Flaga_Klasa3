@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="@color/white"
+            android:onClick="dobry"/>
 
         <Button
             android:id="@+id/button2"
@@ -38,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#5F1D1D" />
+            android:backgroundTint="#5F1D1D"
+            android:onClick="test" />
 
         <Button
             android:id="@+id/button3"
@@ -46,7 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#56E407" />
+            android:backgroundTint="#56E407"
+            android:onClick="test" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,7 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#FB00FF"/>
+            android:backgroundTint="#FB00FF"
+            android:onClick="test"/>
 
         <Button
             android:id="@+id/button5"
@@ -68,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="@color/Czerwony"/>
+            android:backgroundTint="@color/Czerwony"
+            android:onClick="dobry"/>
 
         <Button
             android:id="@+id/button6"
@@ -76,7 +81,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#FFEA00"/>
+            android:backgroundTint="#FFEA00"
+            android:onClick="test"/>
     </LinearLayout>
 
 </LinearLayout>

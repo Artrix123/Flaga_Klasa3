@@ -1,6 +1,8 @@
 package ph.kostki.app1;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void test(View view) {
+        Toast.makeText(this, "Wrong button!", Toast.LENGTH_SHORT).show();
+        view.setVisibility(view.INVISIBLE);
+    }
+
+    public void dobry(View view) {
+        Toast.makeText(this, "You got it!", Toast.LENGTH_SHORT).show();
     }
 }
