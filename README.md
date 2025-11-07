@@ -25,3 +25,21 @@ btnNie.setOnClickListener(
     }
 );
 ```
+
+## Ustawianie tekstu ***TextView***
+
+```
+textViewKoniec.setText("Koniec testu!");
+```
+
+## Toast
+
+```
+Toast.makeText(this, R.string.you_clicked_the_button, Toast.LENGTH_SHORT).show();
+```
+
+## "Znikanie" elementow
+
+```
+linearLayoutInterfejs.setVisibility(View.GONE);
+```
