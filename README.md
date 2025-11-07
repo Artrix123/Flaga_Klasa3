@@ -10,7 +10,7 @@ textViewPodp = findViewById(R.id.textViewPodp);
 ```
 xml > android:backgroundTint="#333333"
 
-java > btnTak.setBackgroundColor(Color.rgb(51,51,51));
+java > tak.setBackgroundColor(Color.rgb(51,51,51));
 ```
 
 ## onClickListener
